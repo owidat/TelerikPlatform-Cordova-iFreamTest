@@ -35,6 +35,8 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         navigator.splashscreen.hide();
+        
+        $('<iframe src="http://apple.com" height="' + (($(window)).height()) + '" width="' + (($(window)).width()) + '" frameborder="0"></iframe>').appendTo('body');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

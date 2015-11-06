@@ -2,7 +2,7 @@
   "ProjectName": "iFrameTest",
   "ProjectGuid": "5d1937b2-b1a4-400c-a061-539a385d8b0f",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.iFrameTest",
+  "AppIdentifier": "com.pinfo.iFrameTest",
   "DisplayName": "iFrameTest",
   "Author": "",
   "Description": "iFrameTest",
@@ -41,5 +41,6 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
-  ]
+  ],
+  "iOSDeploymentTarget": "6.0"
 }
